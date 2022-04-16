@@ -1,0 +1,160 @@
+body, p {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+header {
+    min-height: 450px;
+    background-color: rgb(31, 41, 54);
+    padding: 24px;
+}
+
+button {
+    margin: 18px 0px;
+    width: 140px;
+    height: 40px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 9px;
+}
+
+.nav {
+    margin: 0px 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main-parent {
+    color: white;
+    margin: 70px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    width: 440px;
+}
+.right {
+    width: 425px;
+    height: 200px;
+    background-color: rgb(109, 116, 125);
+    text-align: center;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-weight: 300;
+    font-size: 18px;
+
+    color: #E5E7EB;
+}
+
+.heading1 {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.sec-1 {
+    min-height: 400px;
+    text-align: center;
+}
+
+.s1-boxes-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 300px;
+    flex-wrap: wrap;
+    /*border: solid red;*/
+}
+
+.s1-box-parent {
+    width: 160px;
+    color: #6b6b6b;
+}
+
+.s1-box {
+    border: solid 4px #3882F6;
+    border-radius: 14px;
+    width: 160px;
+    height: 160px;
+    /*margin: 12px 12px;*/
+    margin-bottom: 12px;
+    /*background-color: lightgreen;*/
+}
+
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.2em;
+    color: #1F2937;
+    /*padding: 75px;*/
+    /*text-align: center;*/
+    background-color: rgb(229,231,235);
+}
+
+.sig {
+    margin-right: 50px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.sec-2-container {
+    margin: 0px auto;
+    max-width: 850px;
+}
+
+.sec-3 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    min-height: 325px;
+    /*padding: 50px;*/
+}
+
+.sec-3-box {
+    margin: 0 auto;
+    width: 650px;
+    height: 105px;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: rgb(31, 41, 54);
+
+}
