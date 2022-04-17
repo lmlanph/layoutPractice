@@ -10,6 +10,8 @@ ul {
     align-items: center;
     justify-content: space-between;
     column-gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 header {
@@ -18,7 +20,7 @@ header {
     padding: 24px;
 }
 
-button {
+#btn-header {
     margin: 18px 0px;
     width: 140px;
     height: 40px;
@@ -26,7 +28,7 @@ button {
     color: white;
     font-size: 18px;
     border: none;
-    border-radius: 9px;
+    border-radius: 6px;
 }
 
 .nav {
@@ -37,9 +39,16 @@ button {
     align-items: center;
 }
 
+#logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: normal;
+    color: #F9FAF8;
+}
+
 .header-main-parent {
     color: white;
-    margin: 70px 200px;
+    margin: 95px 200px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -50,8 +59,8 @@ button {
     width: 440px;
 }
 .right {
-    width: 425px;
-    height: 200px;
+    width: 500px;
+    height: 240px;
     background-color: rgb(109, 116, 125);
     text-align: center;
 }
@@ -72,7 +81,7 @@ button {
 .heading1 {
     margin-top: 50px;
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .sec-1 {
@@ -136,15 +145,37 @@ button {
     align-content: center;
     align-items: center;
     min-height: 325px;
+    font-size: 16px;
     /*padding: 50px;*/
 }
 
 .sec-3-box {
+    padding: 0px 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E5E7EB;
     margin: 0 auto;
-    width: 650px;
-    height: 105px;
+    width: 700px;
+    height: 120px;
     border-radius: 8px;
     background-color: #3882F6;
+}
+
+.s3-heading1 {
+    font-size: 22px;
+    color: white;
+}
+
+#s3-btn {
+    margin: 18px 0px;
+    width: 140px;
+    height: 40px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    border: solid 1px white;
+    border-radius: 6px;
 }
 
 footer {
