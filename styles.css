@@ -49,6 +49,8 @@ header {
 .header-main-parent {
     color: white;
     margin: 95px 200px;
+    /*width: 850px;*/
+    /*max-width: 700px;*/
     display: flex;
     flex-wrap: wrap;
     align-items: center;
